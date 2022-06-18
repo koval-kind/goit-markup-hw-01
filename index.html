@@ -17,10 +17,10 @@
                 <li class="navigation-item"><a href="#" class="navigation-link">Контакты</a></li>
             </ul>
         </nav>
-        <div class="contacts">
-            <a href="info@devstudio.com" class="mail">info@devstudio.com</a>
-            <a href="+380961111111" class="tel">+38 096 111 11 11</a>
-        </div>
+        <ul class="header-contact">
+            <li class="header-mail"><a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a></li>
+            <li class="header-tel"><a href="tel:+380961111111" class="tel">+38 096 111 11 11</a></li>
+        </ul>
     </header>
     <main>
     <!-- Service order -->
@@ -52,10 +52,18 @@
     </section>
     <!-- What are we doing -->
     <section class="activity">
-        <h2 class="acrivity-title">Чем мы занимаемся</h2>
-        <img src="./images/box1.jpg" alt="writing code" class="activity-img" width="370" height="294">
-        <img src="./images/box2.jpg" alt="Application Development" class="activity-img" width="370" height="294">
-        <img src="./images/box3.jpg" alt="color spectrum" class="activity-img" width="370" height="294">
+        <h2 class="activity-title">Чем мы занимаемся</h2>
+        <ul class="activity-list">
+            <li class="activity-item">
+                <img src="./images/box1.jpg" alt="writing code" class="activity-img" width="370" height="294">
+            </li>
+            <li class="activity-item">
+                <img src="./images/box2.jpg" alt="Application Development" class="activity-img" width="370" height="294">
+            </li>
+            <li class="activity-item">
+                <img src="./images/box3.jpg" alt="color spectrum" class="activity-img" width="370" height="294">
+            </li>
+        </ul>
     </section>
     <!-- Our team -->
     <section class="team">
@@ -88,9 +96,15 @@
         <footer class="footer">
             <a href="#" class="logo"> <span class="logo-web">Web</span>Studio </a>
             <address>
-                <p>г. Киев, пр-т Леси Украинки, 26</p>
-                <a href="info@devstudio.com" class="footer-mail">info@devstudio.com</a>
-                <a href="+380961111111" class="footer-tel">+38 096 111 11 11</a>
+                <p class="footer-address">г. Киев, пр-т Леси Украинки, 26</p>
+                <ul class="foorer-list">
+                    <li class="footer-item">
+                        <a href="mailto:info@devstudio.com" class="footer-mail">info@devstudio.com</a>
+                    </li>
+                    <li class="footer-item">
+                        <a href="tel:+380961111111" class="footer-tel">+38 096 111 11 11</a>
+                    </li>
+                </ul>
             </address>
         </footer>
 </body>
